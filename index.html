@@ -1,0 +1,136 @@
+tipop de juego: free fire
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Fire</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background: linear-gradient(to bottom, #111, #222);
+        color:white;
+    }
+
+    header{
+        background:#ff9800;
+        padding:20px;
+        text-align:center;
+    }
+
+    header h1{
+        font-size:3rem;
+        text-transform:uppercase;
+    }
+
+    .hero{
+        height:80vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        background:url('https://wallpapercave.com/wp/wp6959654.jpg') center/cover;
+    }
+
+    .hero h2{
+        font-size:3rem;
+        text-shadow:2px 2px 10px black;
+    }
+
+    .hero p{
+        margin-top:15px;
+        font-size:1.2rem;
+        max-width:600px;
+    }
+
+    .btn{
+        margin-top:20px;
+        padding:12px 25px;
+        background:#ff9800;
+        color:white;
+        text-decoration:none;
+        border-radius:5px;
+        font-weight:bold;
+    }
+
+    .personajes{
+        padding:50px 20px;
+        text-align:center;
+    }
+
+    .cards{
+        display:flex;
+        justify-content:center;
+        gap:20px;
+        flex-wrap:wrap;
+        margin-top:20px;
+    }
+
+    .card{
+        background:#333;
+        width:250px;
+        padding:20px;
+        border-radius:10px;
+    }
+
+    .card h3{
+        color:#ff9800;
+        margin-bottom:10px;
+    }
+
+    footer{
+        background:#111;
+        text-align:center;
+        padding:15px;
+        margin-top:30px;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>FREE FIRE</h1>
+</header>
+
+<section class="hero">
+    <h2>Booyah!</h2>
+    <p>Sobrevive, lucha y conviértete en el último jugador en pie en el campo de batalla.</p>
+    <a href="#" class="btn">Jugar Ahora</a>
+</section>
+
+<section class="personajes">
+    <h2>Personajes Populares</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Alok</h3>
+            <p>Aumenta la velocidad y recupera vida.</p>
+        </div>
+
+        <div class="card">
+            <h3>Chrono</h3>
+            <p>Crea un escudo protector temporal.</p>
+        </div>
+
+        <div class="card">
+            <h3>Kelly</h3>
+            <p>Especialista en velocidad de carrera.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Fan Page Inspirada en Free Fire</p>
+</footer>
+
+</body>
+</html>
